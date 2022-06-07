@@ -1,0 +1,23 @@
+{
+  "name": "v-html-to-excel",
+  "version": "1.0.0",
+  "description": "convert html table to excel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/intvuthea/html-to-excel.git"
+  },
+  "author": "int-vuthea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/intvuthea/html-to-excel/issues"
+  },
+  "homepage": "https://github.com/intvuthea/html-to-excel#readme",
+  "dependencies": {
+    "exceljs": "^4.3.0",
+    "file-saver": "^2.0.5"
+  }
+}
