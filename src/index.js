@@ -1,6 +1,7 @@
 import Parser from "./parser";
 import saveAs from "file-saver";
-import ExcelJS from 'exceljs'
+
+const ExcelJS = () => import('exceljs')
 
 const TableToExcel = (function (Parser) {
     let methods = {};
